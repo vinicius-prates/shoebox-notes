@@ -62,7 +62,7 @@ export const Note = () => {
         }
         Swal.fire({
           text: "Your note has been deleted",
-        }).then(() => navigate("/home"));
+        }).then(() => navigate("/"));
       }
     });
   };

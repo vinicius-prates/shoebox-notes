@@ -5,7 +5,7 @@ export const PageNotFound = () => {
     const navigate = useNavigate()
 
     useEffect(() => {
-        navigate('/home')
+        navigate('/')
     },[])
     return(
         <div>Error</div>

@@ -62,7 +62,7 @@ export const Register = () => {
                         icon: 'info',
                         confirmButtonText: 'OK'
                     }).then(() => {
-                        navigate('/home')
+                        navigate('/')
                     })
         } else {
           return(

@@ -37,7 +37,7 @@ export const SignIn = () => {
                 confirmButtonText: 'OK!'
             }).then(() => {
                 console.log(data.session)
-                navigate('/home')
+                navigate('/')
                 })
         }
         return data
@@ -53,7 +53,7 @@ export const SignIn = () => {
                         icon: 'info',
                         confirmButtonText: 'OK'
                     }).then(() => {
-                        navigate('/home')
+                        navigate('/')
                     })
                 } else {
                     return(

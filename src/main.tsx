@@ -9,7 +9,7 @@ import { Note } from './pages/notes/[id].tsx'
 import { PageNotFound } from './pages/PageNotFound.tsx'
 const router  = createBrowserRouter([
   {
-    path: '/home',
+    path: '/',
     element: <App />
   },
   {

@@ -21,7 +21,7 @@ export const Navbar = () => {
             }).then(
                 () => {
                     location.reload()
-                    navigate('/home')
+                    navigate('/')
                 }
             )
         }
