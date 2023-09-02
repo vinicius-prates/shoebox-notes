@@ -17,7 +17,7 @@ function App() {
   }, [])
 
   const fetchNotes = async () => {
-    let { data:Notes , error} = await supabase.from('notes').select()
+    const { data:Notes , error} = await supabase.from('notes').select()
 
     if (error){
       console.log(`Error: ${error.message}, Code: ${error.code}`)
