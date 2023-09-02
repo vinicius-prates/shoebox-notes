@@ -30,7 +30,7 @@ export const Note = () => {
       return;
     }
     if (error) {
-      return console.log(`Error: ${error.message}, Code: ${error.code}`);
+      return console.log(`Ih`);
     } else {
       const newnote = data as unknown as NoteType[];
       console.log(newnote);
